@@ -4,9 +4,9 @@ sample = [ones(20,1); 2 * ones(20,1); ones(10,1); 2*ones(25,1); ones(15,1); 2*on
 
 % x_exact = sample;
 % T = 500;
-% x_exact = repmat(sample, 5, 1);
+x_exact = repmat(sample, 5, 1);
 % T = 1000;
-x_exact = repmat(sample, 10, 1);
+% x_exact = repmat(sample, 10, 1);
 % T = 1500
 % x_exact = repmat(sample, 15, 1);
 
@@ -16,8 +16,8 @@ T = size(x_exact, 1);
 % add noise
 % noise = 0.3;
 % noise = 0.5;
-% noise = 1;
-noise = 10;
+noise = 1;
+% noise = 10;
 % noise = 10^3;
 x_noise = x_exact + noise * randn(size(x_exact));
 
