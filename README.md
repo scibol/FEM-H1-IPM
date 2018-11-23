@@ -1,6 +1,4 @@
-# Bachelor Project
-This is the public repository of the Bachelor Project of Luca Scibona, student of USI Lugano.
-# Interior point Method for the inner quadratic programming problem in the Big Data analysis
+# Clustering of non stationary time series with quadratic programming
 First, download the whole folder and open it in Matlab (Add to path -> selected folders and subfolders)
 
 You can run some tests to see our implementation in action. Be aware that some tests might take a long time to finish.
